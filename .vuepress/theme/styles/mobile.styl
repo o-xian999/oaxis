@@ -8,7 +8,7 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
     font-size 15px
     width $mobileSidebarWidth
   .page
-    padding-left $mobileSidebarWidth
+    // padding-left $mobileSidebarWidth
 
 // wide mobile
 @media (max-width: $MQMobile)
@@ -29,6 +29,8 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
 
 // narrow mobile
 @media (max-width: $MQMobileNarrow)
+  transform translateX(-100%)
+  
   h1
     font-size 1.9rem
   {$contentClass}
