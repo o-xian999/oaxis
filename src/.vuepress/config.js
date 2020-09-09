@@ -1,7 +1,7 @@
 module.exports = {
-  title: "blog",
+  title: "oaxis",
   themeConfig: {
-    description: "ここにはディスクリプションを入れます。",
+    description: "勉強したことを色々ぶち込んでいきます",
     nav: [
       { text: "About", link: "/about/" },
       {
