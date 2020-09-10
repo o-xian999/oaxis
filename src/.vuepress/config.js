@@ -9,6 +9,9 @@ module.exports = {
     ],
     sidebar: 'auto'
   },
+  markdown: {
+    lineNumbers: true
+  },
   plugins: [
     "@vuepress/blog",
     {
