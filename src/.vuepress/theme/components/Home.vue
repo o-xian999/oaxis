@@ -140,7 +140,7 @@ export default {
       color lighten($textColor, 25%)
   .footer
     padding 2.5rem
-    border-top 1px solid $borderColor
+    // border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
 
