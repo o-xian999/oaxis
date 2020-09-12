@@ -13,14 +13,19 @@ module.exports = {
   //  lineNumbers: true
   //},
   plugins: [
-    "@vuepress/blog",
-    {
-      // Unique ID of current classification
-      id: 'post',
-      // Target directory
-      dirname: 'posts',
-      // Path of the `entry page` (or `list page`)
-      path: '/',
-    }
+    [
+      "@vuepress/blog",
+      {
+        // Unique ID of current classification
+        id: 'post',
+        // Target directory
+        dirname: 'posts',
+        // Path of the `entry page` (or `list page`)
+        path: '/',
+      }
+    ],
+    [
+      "seo"
+    ]
   ]
 };
