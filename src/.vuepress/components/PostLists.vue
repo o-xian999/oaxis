@@ -3,6 +3,7 @@
     <div v-for="post in posts">
       <time>{{ post.frontmatter.date }}</time>
       <a v-bind:href="post.path">{{ post.title }}</a>
+      <button class="btn btn-primary">Click Me</button>
     </div>
   </div>
 </template>
