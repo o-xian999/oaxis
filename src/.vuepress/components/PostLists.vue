@@ -1,9 +1,14 @@
 <template>
   <div>
     <div v-for="post in posts">
-      <time>{{ post.frontmatter.date }}</time>
-      <a v-bind:href="post.path">{{ post.title }}</a>
-      <button class="btn btn-primary">Click Me</button>
+      <div class="m-4">
+        <div class="card">
+          <div class="p-3 d-flex flex-column">
+            <a v-bind:href="post.path">{{ post.title }}</a>
+            <time>{{ post.frontmatter.date }}</time>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
