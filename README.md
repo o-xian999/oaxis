@@ -9,4 +9,5 @@
 git clone https://github.com/o-xian999/oaxis.git
 cd oaxis
 yarn install
+yarn dev
 ```
