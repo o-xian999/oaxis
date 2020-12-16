@@ -8,6 +8,10 @@ My tech blog
 
 `oaxis` is my blog, built with VuePress. I write about the technical stuff I have been studying in this blog.
 
+## Technology
+- [VuePress](https://vuepress.vuejs.org/)
+- [Bootstrap](https://getbootstrap.jp/)
+
 ## Demo
 
 ***DEMO:***
@@ -27,3 +31,6 @@ cd oaxis
 yarn install
 yarn dev
 ```
+## Author
+
+[@osshan9](https://twitter.com/osshan9)
