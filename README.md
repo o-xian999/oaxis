@@ -8,6 +8,16 @@ My tech blog
 
 `oaxis` is my blog, built with VuePress. I write about the technical stuff I have been studying in this blog.
 
+## Demo
+
+![demo](demo.gif)
+
+## Contents
+
+- What I made
+- What I studied
+- Error handling
+
 ## Install
 
 ```sh
