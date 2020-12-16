@@ -10,6 +10,7 @@ My tech blog
 
 ## Demo
 
+***DEMO:***
 ![demo](demo.gif)
 
 ## Contents
