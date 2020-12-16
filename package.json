@@ -8,5 +8,7 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
 }
