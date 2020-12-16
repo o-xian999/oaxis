@@ -4,6 +4,10 @@
 
 My tech blog
 
+## Description
+
+`oaxis` is my blog, built with VuePress. I write about the technical stuff I have been studying in this blog.
+
 ## Install
 
 ```sh
