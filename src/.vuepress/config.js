@@ -4,8 +4,8 @@ module.exports = {
     description: "色々学んだものをぶち込んでいきます",
     nav: [
       { text: "About", link: "/about/" },
-      { text: 'twitter', link: 'https://twitter.com/osshan9' },
-      { text: 'Github', link: 'https://github.com/o-xian999' },
+      { text: 'twitter', link: 'https://twitter.com/oshanQQ' },
+      { text: 'Github', link: 'https://github.com/oshanQQ' },
     ],
     sidebar: 'auto'
   },
